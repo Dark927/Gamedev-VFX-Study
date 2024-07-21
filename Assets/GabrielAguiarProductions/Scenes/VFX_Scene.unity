@@ -1233,7 +1233,7 @@ PrefabInstance:
     - target: {fileID: 6166298938783088134, guid: c7934cf48f7e91a4e977b85c5b5270a6,
         type: 3}
       propertyPath: m_Name
-      value: vfx_AreaOfEffects_v1
+      value: vfx_AoE_sci-fi
       objectReference: {fileID: 0}
     - target: {fileID: 6166298938783088135, guid: c7934cf48f7e91a4e977b85c5b5270a6,
         type: 3}
