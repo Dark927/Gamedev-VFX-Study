@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Beam02_HDR
+  m_Name: Beam02_Add
   m_Shader: {fileID: -6465566751694194690, guid: ee65275d62c399a44afae4c4c4e4d716,
     type: 3}
   m_ValidKeywords:
