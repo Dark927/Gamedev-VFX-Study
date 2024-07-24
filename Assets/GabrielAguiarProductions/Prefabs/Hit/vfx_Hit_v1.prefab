@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8454727541908752178}
   - component: {fileID: 8454727541908752176}
   - component: {fileID: 8454727541908752177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4879,7 +4879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8454727542600795683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: vfx_Hit_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4916,7 +4916,7 @@ GameObject:
   - component: {fileID: 8454727543295325978}
   - component: {fileID: 8454727543295325976}
   - component: {fileID: 8454727543295325977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5021,7 +5021,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5128,7 +5128,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0.6666667, b: 1, a: 0.2901961}
+      maxColor: {r: 0.12615702, g: 0.435061, b: 0.5943396, a: 0.42745098}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5190,7 +5190,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6
+      scalar: 5.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5243,7 +5243,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 8
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5348,7 +5348,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -5401,7 +5401,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -5454,8 +5454,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotation:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 6.283185
+      minMaxState: 0
+      scalar: 0
       minScalar: -6.283185
       maxCurve:
         serializedVersion: 2
@@ -5505,7 +5505,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    randomizeRotationDirection: 1
+    randomizeRotationDirection: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -9786,7 +9786,7 @@ GameObject:
   - component: {fileID: 8454727543647349223}
   - component: {fileID: 8454727543647349221}
   - component: {fileID: 8454727543647349222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Impact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9998,7 +9998,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0.6666667, b: 1, a: 0.8352941}
+      maxColor: {r: 0, g: 0.6666667, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10060,7 +10060,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 4.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -10825,13 +10825,22 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.09259258
         - serializedVersion: 3
-          time: 1
+          time: 0.75131226
           value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0.5359478
+          inSlope: -0.91764575
+          outSlope: -0.91764575
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.37232497
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -14656,7 +14665,7 @@ GameObject:
   - component: {fileID: 8454727543958073726}
   - component: {fileID: 8454727543958073724}
   - component: {fileID: 8454727543958073725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
