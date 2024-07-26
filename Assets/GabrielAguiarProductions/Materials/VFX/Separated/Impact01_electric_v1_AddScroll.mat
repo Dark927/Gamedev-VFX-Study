@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Impact01_AddScroll
+  m_Name: Impact01_electric_v1_AddScroll
   m_Shader: {fileID: -6465566751694194690, guid: e9a993b01d6046545abba81fcd4f7075,
     type: 3}
   m_ValidKeywords:
@@ -47,7 +47,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_12538D6B:
-        m_Texture: {fileID: 2800000, guid: 0b24dc6336f71f249b857f493d24ccca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 13ad85f34d7c5074e88512e8180223a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -65,7 +65,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_3BD888F6: 0.05
-    - Vector1_8D588927: 15
+    - Vector1_8D588927: 12.01
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 1
@@ -107,9 +107,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - Color_7D9E84EC: {r: 11.313708, g: 11.313708, b: 11.313708, a: 1}
-    - Vector2_74479B4E: {r: 0.1, g: 0, b: 0, a: 0}
-    - Vector2_C12106B1: {r: -0.3, g: -0.2, b: 0, a: 0}
+    - Color_7D9E84EC: {r: 4.237095, g: 4.237095, b: 4.237095, a: 1}
+    - Vector2_74479B4E: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_C12106B1: {r: -0.1, g: 0.01, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
